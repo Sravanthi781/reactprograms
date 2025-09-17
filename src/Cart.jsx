@@ -11,7 +11,7 @@ import {
 import { calculateDiscount, getCouponDiscount } from "./discountUtil";
 import Confetti from "react-confetti";
 import emailjs from "@emailjs/browser";
-import "./app.css";
+import "./App.css";
 import Swal from "sweetalert2";
 import { QRCodeCanvas } from "qrcode.react";
 import { useNavigate } from "react-router-dom";

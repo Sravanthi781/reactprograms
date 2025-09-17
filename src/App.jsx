@@ -8,7 +8,7 @@ import { GiChocolateBar } from 'react-icons/gi';
 import { FaBasketShopping } from 'react-icons/fa6';
 
 import Home from './Home';
-import Veg from './veg';
+import Veg from './Veg';
 import NonVeg from './NonVeg';
 import Chacolate from './Chacolate';
 import Milk from './Milk';

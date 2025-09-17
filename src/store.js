@@ -30,7 +30,7 @@ const productsSlice = createSlice({
       { id: 103, name: "Tomato", price: 30, imageurl: "/Images/Tomato.png" },
       { id: 104, name: "Cucumber", price: 47, imageurl: "/Images/Cucumber.jpeg" },
       { id: 105, name: "Bitter Gourd", price: 52, imageurl: "/Images/BitterGuard.jpeg" },
-      { id: 106, name: "Egg Plant", price: 40, imageurl: "/Images/EggPlant.jpg" },
+      { id: 106, name: "Egg Plant", price: 40, imageurl: "/Images/Eggplant.jpg" },
       { id: 107, name: "Capsicum", price: 28, imageurl: "/Images/Capsicum.jpeg" },
       { id: 108, name: "Carrot", price: 33, imageurl: "/Images/carrot.png" },
       { id: 109, name: "Cabbage", price: 50, imageurl: "/Images/Cabbage.avif" },
@@ -65,7 +65,7 @@ const productsSlice = createSlice({
       { id: 1016, name: "Chicken Wings", price: 250, imageurl: "/Images/Chicken Wings.jpg" },
       { id: 1017, name: "KFC", price: 500, imageurl: "/Images/KFC.png" },
       { id: 1018, name: "Lobster", price: 180, imageurl: "/Images/Lobster.jpeg" },
-      { id: 1019, name: "Chiken Lollipop", price: 250, imageurl: "/Images/chiken Lalipop.jpg" },
+      { id: 1019, name: "Chiken Lollipop", price: 250, imageurl: "/Images/Chiken Lalipop.jpg" },
       { id: 1020, name: "Mutton Keema", price: 500, imageurl: "/Images/Mutton Keema.jpeg" }
     ],
     Milk: [

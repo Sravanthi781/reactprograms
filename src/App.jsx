@@ -18,6 +18,7 @@ import Orders from './Orders';
 import About from './About';
 import Contact from './Contact';
 import Login from './Login';
+import ProductDetails from "./ProductDetails";
 
 import './App.css';
 import { useSelector, useDispatch } from 'react-redux';
@@ -63,13 +64,13 @@ function App() {
     setSearchResults(results);
   };
 
-  // ✅ When user clicks result → go to category page with that product
+  // ✅ When user clicks result → go to ProductDetails page
   const handleResultClick = (product) => {
     setSearchQuery("");
     setSearchResults([]);
 
-    navigate(`/${product.category.toLowerCase()}`, {
-      state: { selectedProduct: product },   // ✅ pass product to category page
+    navigate(`/product/${product.id}`, {
+      state: { product },   // ✅ pass only that product
     });
   };
 
@@ -163,6 +164,7 @@ function App() {
           <Route path="/contact" element={<Contact />} />
           <Route path="/login" element={<Login />} />
           <Route path="/cart" element={<Cart />} />
+          <Route path="/product/:id" element={<ProductDetails />} />
           <Route path="*" element={<h2 style={{ textAlign: 'center', marginTop: '50px' }}>404 - Page Not Found</h2>} />
         </Routes>
       </main>

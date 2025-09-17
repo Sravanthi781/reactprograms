@@ -2,7 +2,7 @@
 import React, { useState } from "react";
 import { useSelector, useDispatch } from "react-redux";
 import { clearOrders } from "./store";
-import "./app.css";
+import "./App.css";
 
 function Orders() {
   const orders = useSelector((state) => state.orders) || [];

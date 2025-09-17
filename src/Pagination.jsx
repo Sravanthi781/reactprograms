@@ -1,5 +1,6 @@
 // src/Pagination.jsx
 import React from "react";
+import "./App.css";
 import { Pagination } from "react-bootstrap";
 
 function CustomPagination({ currentPage, totalPages, onPageChange }) {
